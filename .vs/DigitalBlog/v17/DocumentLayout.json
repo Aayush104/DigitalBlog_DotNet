@@ -1,0 +1,286 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\models\\useredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\models\\useredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\models\\blogsubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\models\\blogsubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|c:\\users\\acer\\source\\repos\\digitalblog\\digitalblog\\models\\digitalblogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\models\\digitalblogcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T04:26:36.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserEdit.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\UserEdit.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Models\\UserEdit.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\UserEdit.cs",
+              "RelativeToolTip": "DigitalBlog\\Models\\UserEdit.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA1wBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T03:44:34.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DigitalBlog\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAzwBQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T03:40:14.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DigitalBlog\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T03:14:58.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Program.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Program.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Program.cs",
+              "RelativeToolTip": "DigitalBlog\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T03:14:27.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:26:07.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:25:55.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:21:10.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\User.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\User.cs",
+              "RelativeToolTip": "DigitalBlog\\Models\\User.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAIwBcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:19:50.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:26:09.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\appsettings.json",
+              "RelativeDocumentMoniker": "DigitalBlog\\appsettings.json",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\appsettings.json",
+              "RelativeToolTip": "DigitalBlog\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T06:02:16.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-23T03:14:31.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Models\\Blog.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\Blog.cs",
+              "RelativeToolTip": "DigitalBlog\\Models\\Blog.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:19:19.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-22T06:26:17.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogSubscription.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\BlogSubscription.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Models\\BlogSubscription.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\BlogSubscription.cs",
+              "RelativeToolTip": "DigitalBlog\\Models\\BlogSubscription.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA1wAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:19:44.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DigitalBlogContext.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\DigitalBlogContext.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Models\\DigitalBlogContext.cs",
+              "ToolTip": "C:\\Users\\acer\\source\\repos\\DigitalBlog\\DigitalBlog\\Models\\DigitalBlogContext.cs",
+              "RelativeToolTip": "DigitalBlog\\Models\\DigitalBlogContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:18:32.501Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
