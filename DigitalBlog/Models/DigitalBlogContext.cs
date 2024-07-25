@@ -75,7 +75,6 @@ public partial class DigitalBlogContext : DbContext
             entity.Property(e => e.EmailAddress).HasMaxLength(50);
             entity.Property(e => e.FullName).HasMaxLength(40);
             entity.Property(e => e.LoginName).HasMaxLength(30);
-            entity.Property(e => e.LoginPassword).HasMaxLength(50);
             entity.Property(e => e.LoginStatus).HasDefaultValue(true);
             entity.Property(e => e.Phone).HasMaxLength(15);
             entity.Property(e => e.UserRole).HasMaxLength(20);

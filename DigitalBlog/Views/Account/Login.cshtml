@@ -1,1 +1,58 @@
-﻿<p>Hello</p>
+﻿@* @model UserEdit
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="bg-white w-full flex items-center justify-center h-screen">
+    <div class="w-full max-w-sm mx-auto bg-slate-100 p-8 rounded-lg shadow-lg border border-gray-100">
+        <h2 class="text-2xl font-bold mb-6 text-gray-800 text-center">Login</h2>
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="mb-4">
+                <label asp-for="LoginName" class="block text-gray-700 text-sm font-bold mb-2">Email</label>
+                <input asp-for="LoginName" id="email" name="email" placeholder="Enter your email" class="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:border-blue-500" required>
+                <span asp-validation-for="LoginName" class="text-red-800"></span>
+            </div>
+            <div class="mb-6">
+                <label asp-for="LoginPassword" class="block text-gray-700 text-sm font-bold mb-2">Password</label>
+                <input asp-for="LoginPassword" id="password" name="password" placeholder="Enter your password" class="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:border-blue-500" required>
+                <span asp-validation-for="LoginPassword" class="text-red-800"></span>
+            </div>
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center">
+                    <input type="checkbox" id="remember" name="remember" class="mr-2">
+                    <label for="remember" class="text-sm text-gray-700">Remember me</label>
+                </div>
+                <a href="#" class="text-sm text-blue-500 hover:underline">Forgot password?</a>
+            </div>
+            <input type="submit" value="Login" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600 transition duration-200 cursor-pointer" />
+        </form>
+        <p class="text-sm text-center text-gray-600 mt-4">Don't have an account? <a href="#" class="text-blue-500 hover:underline">Sign up</a></p>
+    </div>
+</div> *@
+
+
+
+@model UserEdit
+@{
+    ViewData["title"] = "Login";
+}
+<div class="max-w-md mx-auto ">
+    <form asp-action="Login">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="relative mb-3">
+            <input asp-for="LoginName" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label asp-for="LoginName" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"></label>
+            <span asp-validation-for="LoginName" class="text-red-800"></span>
+        </div>
+        <div class="relative mb-3">
+            <input asp-for="LoginPassword" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+            <label asp-for="LoginPassword" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"></label>
+            <span asp-validation-for="LoginPassword" class="text-red-800"></span>
+        </div>
+        <div class="my-2 mt-5">
+            <input type="submit" value="Login" class="w-full text-white bg-blue-500 hover:bg-blue-700 py-3 px-5 rounded-lg"/> 
+        </div>
+    </form>
+</div>
+

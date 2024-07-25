@@ -1,3 +1,4 @@
+using DigitalBlog.DataSecurity;
 using DigitalBlog.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
@@ -10,6 +11,7 @@ builder.Services.AddControllersWithViews();
 
 
 builder.Services.AddDbContext<DigitalBlogContext>(o => o.UseSqlServer(builder.Configuration["Conn"]));
+builder.Services.AddScoped<DataSecurityProvider>();
 
 //Id unauthorized user ley access garna khojyo vaney login ma fyaldinxa
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(o => o.LoginPath="/Account/Login");

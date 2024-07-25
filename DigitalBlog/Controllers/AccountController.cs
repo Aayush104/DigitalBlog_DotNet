@@ -20,7 +20,15 @@ namespace DigitalBlog.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+
+            if(User.Identity!.IsAuthenticated)
+            {
+				return RedirectToAction("Index","Home");
+
+			}
+
             return View();
+           
         }
 
 
@@ -30,7 +38,7 @@ namespace DigitalBlog.Controllers
         {
 
             var users= await _context.Users.ToListAsync();
-
+             
             if (users != null)
             {
                 var u = users.Where(e => e.LoginName.ToUpper().Equals (edit.LoginName.ToUpper()) || e.EmailAddress.ToUpper().Equals (edit.EmailAddress.ToUpper()) 
@@ -49,9 +57,10 @@ namespace DigitalBlog.Controllers
 
                     var claimIdentity = new ClaimsIdentity(claim, CookieAuthenticationDefaults.AuthenticationScheme);
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(claimIdentity), new AuthenticationProperties { IsPersistent = edit.RememberMe });
+					return RedirectToAction("Index");
 
 
-                }
+				}
                 else
                 {
                     ModelState.AddModelError("", "Invalid UserName Or Password");
