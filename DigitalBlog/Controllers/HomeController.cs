@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Globalization;
 
 namespace DigitalBlog.Controllers
 {
@@ -23,12 +24,13 @@ namespace DigitalBlog.Controllers
         }
 
 
-        [Authorize]
+        [Authorize(Roles= "Admin,Editor")]
         public IActionResult Index()
         {
             return View();
         }
 
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();
@@ -38,10 +40,16 @@ namespace DigitalBlog.Controllers
 
         public IActionResult AddUser()
         {
+
+            if (User.Identity.IsAuthenticated)
+            {
+                return RedirectToAction("Index", "Home");   
+            }
             return View();
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public IActionResult AddUser(UserEdit edit)
         {
 
@@ -93,7 +101,7 @@ namespace DigitalBlog.Controllers
 
                 _context.Users.Add(u);
                 _context.SaveChanges();
-                return Json(u);
+                return RedirectToAction("Login", "Account");
 
             }
 
@@ -108,6 +116,105 @@ namespace DigitalBlog.Controllers
             }
 
         }
+
+        [HttpGet]
+        public IActionResult ProfileImage()
+        {
+
+            var user = _context.Users.Where(e => e.UserId == Convert.ToInt16(User.Identity!.Name)).FirstOrDefault();
+            ViewData["img"] = user.UserProfile;
+          
+
+          
+            return PartialView("_ProfileImage");   
+
+        }
+
+        [HttpGet]
+        public IActionResult Profileinfo()
+        {
+
+			var user = _context.Users.Where(e => e.UserId == Convert.ToInt16(User.Identity!.Name)).FirstOrDefault();
+			ViewData["email"] = user.EmailAddress;
+			ViewData["fullName"] = user.FullName;
+			return PartialView("_Profileinfo");
+		}
+
+		[HttpGet]
+        public IActionResult ProfileUpdate()
+        {
+            int userId = Convert.ToInt16(User.Identity!.Name);
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            ViewBag.psw = user.LoginPassword;
+
+            UserEdit editModel = new UserEdit
+            {
+                UserId = user.UserId,
+                EmailAddress = user.EmailAddress,
+                UserProfile = user.UserProfile,
+                UserRole = user.UserRole,
+                FullName = user.FullName,
+                LoginName = user.LoginName,
+                LoginPassword = user.LoginPassword,
+                LoginStatus = user.LoginStatus,
+                Phone = user.Phone
+            };
+
+            return View(editModel);
+        }
+
+
+
+        [HttpPost]
+        public IActionResult ProfileUpdate(UserEdit edit)
+        {
+          
+
+            int userId = Convert.ToInt16(User.Identity!.Name);
+            var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            if (edit.UserFile != null)
+            {
+                string oldFilePath = Path.Combine(_env.WebRootPath, "UserProfile", user.UserProfile);
+                if (System.IO.File.Exists(oldFilePath))
+                {
+                    System.IO.File.Delete(oldFilePath);
+                }
+
+                string newFileName = Guid.NewGuid().ToString() + Path.GetExtension(edit.UserFile.FileName);
+                string newFilePath = Path.Combine(_env.WebRootPath, "UserProfile", newFileName);
+                using (FileStream stream = new FileStream(newFilePath, FileMode.Create))
+                {
+                    edit.UserFile.CopyTo(stream);
+                }
+
+                user.UserProfile = newFileName;
+            }
+
+            user.EmailAddress = edit.EmailAddress;
+            user.UserRole = edit.UserRole;
+            user.FullName = edit.FullName;
+            user.LoginName = edit.LoginName;
+            user.LoginPassword = edit.LoginPassword;
+            user.LoginStatus = edit.LoginStatus;
+            user.Phone = edit.Phone;
+
+            _context.Users.Update(user);
+            _context.SaveChanges();
+            return RedirectToAction("ProfileUpdate","Home");
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

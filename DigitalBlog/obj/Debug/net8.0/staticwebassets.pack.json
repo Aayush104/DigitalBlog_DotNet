@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\DigitalBlog.bundle.scp.css"
     },
     {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\3307720c-21ea-465b-868a-e76716646ae5.jpeg",
+      "PackagePath": "staticwebassets\\UserProfile\\3307720c-21ea-465b-868a-e76716646ae5.jpeg"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\6973a6bd-97c8-48bf-89fd-648417e47381.png",
+      "PackagePath": "staticwebassets\\UserProfile\\6973a6bd-97c8-48bf-89fd-648417e47381.png"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\6b6c41e5-8a82-45b6-9f0e-0317e81ad81a.jpg",
+      "PackagePath": "staticwebassets\\UserProfile\\6b6c41e5-8a82-45b6-9f0e-0317e81ad81a.jpg"
+    },
+    {
       "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\92c48506-3354-4e30-b855-227b5fd77517.jpg",
       "PackagePath": "staticwebassets\\UserProfile\\92c48506-3354-4e30-b855-227b5fd77517.jpg"
     },
@@ -13,8 +25,24 @@
       "PackagePath": "staticwebassets\\UserProfile\\b21c366f-c107-4050-90d8-9bf92943648a.jpeg"
     },
     {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\b4028181-87ac-4bfe-a050-c478fb92c62e.jpg",
+      "PackagePath": "staticwebassets\\UserProfile\\b4028181-87ac-4bfe-a050-c478fb92c62e.jpg"
+    },
+    {
       "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\cf2569da-ff24-4f2c-b4a0-bd963eb4b937.png",
       "PackagePath": "staticwebassets\\UserProfile\\cf2569da-ff24-4f2c-b4a0-bd963eb4b937.png"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\da299273-5768-4e68-a720-d5cea32d60d4.png",
+      "PackagePath": "staticwebassets\\UserProfile\\da299273-5768-4e68-a720-d5cea32d60d4.png"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\dd5b81f7-3c43-4bfa-a12d-5c316b8b2156.png",
+      "PackagePath": "staticwebassets\\UserProfile\\dd5b81f7-3c43-4bfa-a12d-5c316b8b2156.png"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\f6d1d37d-e7ca-4481-8607-a8ee6c6a6c21.png",
+      "PackagePath": "staticwebassets\\UserProfile\\f6d1d37d-e7ca-4481-8607-a8ee6c6a6c21.png"
     },
     {
       "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\css\\site.css",
