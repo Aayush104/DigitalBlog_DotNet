@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using System.Globalization;
+using System.Security.Claims;
 
 namespace DigitalBlog.Controllers
 {
@@ -15,7 +16,7 @@ namespace DigitalBlog.Controllers
         private readonly IWebHostEnvironment _env;
         private readonly IDataProtector _dataProtector;
 
-        public HomeController(ILogger<HomeController> logger, DigitalBlogContext context, IWebHostEnvironment env,IDataProtectionProvider provider,DataSecurityProvider security )
+        public HomeController(ILogger<HomeController> logger, DigitalBlogContext context, IWebHostEnvironment env, IDataProtectionProvider provider, DataSecurityProvider security)
         {
             _logger = logger;
             _context = context;
@@ -24,7 +25,7 @@ namespace DigitalBlog.Controllers
         }
 
 
-        [Authorize(Roles= "Admin,Editor")]
+        [Authorize(Roles = "Admin,Editor")]
         public IActionResult Index()
         {
             return View();
@@ -43,7 +44,7 @@ namespace DigitalBlog.Controllers
 
             if (User.Identity.IsAuthenticated)
             {
-                return RedirectToAction("Index", "Home");   
+                return RedirectToAction("Index", "Home");
             }
             return View();
         }
@@ -60,26 +61,26 @@ namespace DigitalBlog.Controllers
                 short maxId;
 
                 if (_context.Users.Any())
-                
+
 
 
                     //incase of using short
                     maxId = Convert.ToInt16(_context.Users.Max(e => e.UserId) + 1);
 
-                
-                else
-                
-                    maxId = 1;
-                
 
-                edit.UserId = maxId; 
-                
-                if(edit.UserFile != null)
+                else
+
+                    maxId = 1;
+
+
+                edit.UserId = maxId;
+
+                if (edit.UserFile != null)
                 {
                     string filename = Guid.NewGuid().ToString() + Path.GetExtension(edit.UserFile.FileName);
                     string filePath = Path.Combine(_env.WebRootPath, "UserProfile", filename);
-                    using(FileStream stram = new FileStream(filePath, FileMode.Create))
-                        {
+                    using (FileStream stram = new FileStream(filePath, FileMode.Create))
+                    {
                         edit.UserFile.CopyTo(stram);
                     }
 
@@ -91,9 +92,9 @@ namespace DigitalBlog.Controllers
                     UserId = edit.UserId,
                     UserProfile = edit.UserProfile,
                     UserRole = "User",
-                    LoginName = edit.LoginName, 
+                    LoginName = edit.LoginName,
                     FullName = edit.FullName,
-                    LoginPassword = _dataProtector.Protect(edit.LoginPassword),    
+                    LoginPassword = _dataProtector.Protect(edit.LoginPassword),
                     LoginStatus = true,
                     Phone = edit.Phone,
                     EmailAddress = edit.EmailAddress,
@@ -123,10 +124,10 @@ namespace DigitalBlog.Controllers
 
             var user = _context.Users.Where(e => e.UserId == Convert.ToInt16(User.Identity!.Name)).FirstOrDefault();
             ViewData["img"] = user.UserProfile;
-          
 
-          
-            return PartialView("_ProfileImage");   
+
+
+            return PartialView("_ProfileImage");
 
         }
 
@@ -134,13 +135,13 @@ namespace DigitalBlog.Controllers
         public IActionResult Profileinfo()
         {
 
-			var user = _context.Users.Where(e => e.UserId == Convert.ToInt16(User.Identity!.Name)).FirstOrDefault();
-			ViewData["email"] = user.EmailAddress;
-			ViewData["fullName"] = user.FullName;
-			return PartialView("_Profileinfo");
-		}
+            var user = _context.Users.Where(e => e.UserId == Convert.ToInt16(User.Identity!.Name)).FirstOrDefault();
+            ViewData["email"] = user.EmailAddress;
+            ViewData["fullName"] = user.FullName;
+            return PartialView("_Profileinfo");
+        }
 
-		[HttpGet]
+        [HttpGet]
         public IActionResult ProfileUpdate()
         {
             int userId = Convert.ToInt16(User.Identity!.Name);
@@ -174,7 +175,7 @@ namespace DigitalBlog.Controllers
         [HttpPost]
         public IActionResult ProfileUpdate(UserEdit edit)
         {
-          
+
 
             int userId = Convert.ToInt16(User.Identity!.Name);
             var user = _context.Users.FirstOrDefault(u => u.UserId == userId);
@@ -203,7 +204,7 @@ namespace DigitalBlog.Controllers
             }
 
             user.EmailAddress = edit.EmailAddress;
-            user.UserRole = edit.UserRole;
+            user.UserRole = User.Claims.FirstOrDefault(c => c.Type == ClaimTypes.Role)!.Value;
             user.FullName = edit.FullName;
             user.LoginName = edit.LoginName;
             user.LoginPassword = edit.LoginPassword;
@@ -212,7 +213,7 @@ namespace DigitalBlog.Controllers
 
             _context.Users.Update(user);
             _context.SaveChanges();
-            return RedirectToAction("ProfileUpdate","Home");
+            return RedirectToAction("ProfileUpdate", "Home");
         }
 
 
@@ -221,5 +222,9 @@ namespace DigitalBlog.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+
+      
+
     }
 }

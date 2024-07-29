@@ -104,6 +104,62 @@ namespace DigitalBlog.Controllers
 			await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 			return RedirectToAction("Index", "Static");
 		}
+		[HttpGet]
+		[Authorize]
 
+		public IActionResult ChangePassword()
+		{
+			return View();
+		}
+
+		[HttpPost]
+		[Authorize]
+
+		public IActionResult ChangePassword(ChangePsw psw)
+		{
+			try
+			{
+
+				var user = _context.Users.Where(e => e.UserId == Convert.ToInt16(User.Identity.Name)).FirstOrDefault();
+				if (user != null)
+				{
+
+					if (_dataProtector.Unprotect(user.LoginPassword) == psw.CurrentPassword)
+					{
+						if (psw.NewPassword == psw.ConfirmPassword)
+						{
+
+							user.LoginPassword = _dataProtector.Protect(psw.NewPassword);
+							_context.Update(user);
+							_context.SaveChanges();
+							return Content("Success");
+
+
+						}
+						else
+						{
+							ModelState.AddModelError("", "Confirm Password Doesnot match");
+							return View(psw);
+						}
+					}
+					else
+					{
+						ModelState.AddModelError("", "Please Recheck yOUR cURRENT pASSWORD");
+						return View(psw);
+
+					}
+				}
+				else
+				{
+					return View();
+				}
+			}
+			catch (Exception ex)
+			{
+				return View(ex);
+			}
+
+
+		}
 	}
 }
