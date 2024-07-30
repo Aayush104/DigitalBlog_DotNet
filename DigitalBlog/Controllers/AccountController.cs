@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Net;
+using System.Net.Mail;
 using System.Security.Claims;
 
 namespace DigitalBlog.Controllers
@@ -161,5 +163,168 @@ namespace DigitalBlog.Controllers
 
 
 		}
-	}
+
+
+		[HttpGet]
+		[AllowAnonymous]
+		public IActionResult ForgetPassword()
+		{
+
+			return View();
+
+		}
+
+
+		[HttpPost]
+
+		public IActionResult ForgetPassword(UserEdit edit)
+		{
+			try
+			{
+				var user = _context.Users.Where(e => e.EmailAddress == edit.EmailAddress).FirstOrDefault();
+
+				if (user == null)
+				{	
+
+					ModelState.AddModelError("", "The User DoesNOt exist");
+					return View(edit);
+				}
+
+
+				//otp gemeration
+				Random r = new Random();
+
+				HttpContext.Session.SetString("token", r.Next(9999).ToString());	
+				var token = HttpContext.Session.GetString("token");
+				SmtpClient smtpclient = new()
+				{
+					Host = "smtp.gmail.com",
+					Port = 587,
+					UseDefaultCredentials = false,
+					Credentials = new NetworkCredential("aayushadhikari601@gmail.com", "hzrn ggvy swkq xfax"),
+					EnableSsl = true,
+					DeliveryMethod = SmtpDeliveryMethod.Network
+
+                };
+
+				MailMessage m = new()
+				{
+					From = new MailAddress("aayushadhikari601@gmail.com"),
+					
+					Subject = "FORGET PASSWORD",
+                    Body = $"<a style='background-color:Green; color:white; padding:5px;' href='https://localhost:7043/Account/VerifyOtp?email={user.EmailAddress}'>ResetPassword</a> " +
+                    $"<p>token number:{token}</p>",
+                    IsBodyHtml = true,
+
+				};
+
+				m.To.Add(user.EmailAddress);
+				smtpclient.Send(m);
+                return RedirectToAction("VerifyOtp", new { email = user.EmailAddress });
+
+
+
+
+            }
+            catch (Exception ex)
+			{
+                ModelState.AddModelError("", "An error occurred while processing your request. Please try again later.");
+                return View(edit);
+            }
+		}
+
+
+		[AllowAnonymous]
+		[HttpGet]
+		public IActionResult VerifyOtp(string email)
+
+		{
+
+			ViewBag.Email = email;
+			return View();
+		}
+        [HttpPost]
+        public IActionResult VerifyOtp(UserEdit edit)
+        {
+            try
+            {
+               
+				
+                var token = HttpContext.Session.GetString("token");
+
+                if (string.IsNullOrEmpty(token))
+                {
+                    ModelState.AddModelError("", "No token provided or token expired.");
+                    return View(edit);
+                }
+
+                if (token != edit.Token)
+                {
+                    ModelState.AddModelError("", "Please enter the correct OTP.");
+                    return View(edit);
+                }
+
+				
+                return RedirectToAction("NewPassword", new { email = edit.EmailAddress });
+            }
+            catch (Exception ex)
+            {
+                
+                ModelState.AddModelError("", "An error occurred while processing your request. Please try again later.");
+
+                return View(edit);
+            }
+        }
+
+
+
+        [HttpGet]
+
+		public IActionResult NewPassword(string email)
+		{
+
+			ViewBag.Email = email;
+			return View();	
+		}
+
+
+        [HttpPost]
+        public IActionResult NewPassword(NewPassword psw)
+        {
+            // Validate the input
+            if ( string.IsNullOrEmpty(psw.NewPasswords) || string.IsNullOrEmpty(psw.ConfirmPassword))
+            {
+                ModelState.AddModelError("", "All fields are required.");
+                return View(psw); 
+            }
+
+            if (psw.NewPasswords != psw.ConfirmPassword)
+            {
+                ModelState.AddModelError("", "New password and confirmation do not match.");
+                return View(psw); 
+            }
+
+            // Find the user by email
+            var user = _context.Users.FirstOrDefault(e => e.EmailAddress == psw.email);
+
+            if (user == null)
+            {
+                ModelState.AddModelError("", "User not found.");
+                return View(psw);
+            }
+
+            // Update the user's password
+            user.LoginPassword = _dataProtector.Protect(psw.NewPasswords);
+            _context.Update(user);
+            _context.SaveChanges();
+
+            return RedirectToAction("Login");
+        }
+
+
+
+    }
+
+
+
 }

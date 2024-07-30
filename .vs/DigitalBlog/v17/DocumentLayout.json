@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "D:\\DigitalBlog\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\account\\forgetpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\account\\changepassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\home\\_profileimage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,16 +39,8 @@
       "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|solutionrelative:digitalblog\\views\\home\\adduser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57D01F82-FB74-45F0-A407-58C57AD6EC4A}|DigitalBlog\\DigitalBlog.csproj|d:\\digitalblog\\digitalblog\\models\\changepsw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -124,8 +128,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ForgetPassword.cshtml",
+              "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Account\\ForgetPassword.cshtml",
+              "ToolTip": "D:\\DigitalBlog\\DigitalBlog\\Views\\Account\\ForgetPassword.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\Account\\ForgetPassword.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T05:21:20.916Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -134,27 +151,14 @@
               "RelativeDocumentMoniker": "DigitalBlog\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\DigitalBlog\\DigitalBlog\\Controllers\\AccountController.cs",
               "RelativeToolTip": "DigitalBlog\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAwwGQAAAAAAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAAAwwKcAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-23T03:40:14.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Models\\Blog.cs",
-              "RelativeDocumentMoniker": "DigitalBlog\\Models\\Blog.cs",
-              "ToolTip": "D:\\DigitalBlog\\DigitalBlog\\Models\\Blog.cs",
-              "RelativeToolTip": "DigitalBlog\\Models\\Blog.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T06:19:19.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\Privacy.cshtml",
@@ -167,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\Index.cshtml",
@@ -175,12 +179,11 @@
               "RelativeToolTip": "DigitalBlog\\Views\\Home\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-22T06:26:17.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T06:26:17.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ProfileUpdate.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\ProfileUpdate.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\ProfileUpdate.cshtml",
@@ -188,25 +191,24 @@
               "RelativeToolTip": "DigitalBlog\\Views\\Home\\ProfileUpdate.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T15:20:22.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T15:20:22.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ChangePassword.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Account\\ChangePassword.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Account\\ChangePassword.cshtml",
               "ToolTip": "D:\\DigitalBlog\\DigitalBlog\\Views\\Account\\ChangePassword.cshtml",
               "RelativeToolTip": "DigitalBlog\\Views\\Account\\ChangePassword.cshtml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEYAAAA7AAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAAD8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-29T05:45:52.843Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Models\\User.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Models\\User.cs",
@@ -214,12 +216,36 @@
               "RelativeToolTip": "DigitalBlog\\Models\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-22T06:19:50.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-22T06:19:50.931Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AddUser.cshtml",
+              "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\AddUser.cshtml",
+              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\AddUser.cshtml",
+              "ToolTip": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\AddUser.cshtml",
+              "RelativeToolTip": "DigitalBlog\\Views\\Home\\AddUser.cshtml",
+              "ViewState": "AQIAACAAAAAAAAAAAAAAACoAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-25T08:37:19.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Models\\Blog.cs",
+              "RelativeDocumentMoniker": "DigitalBlog\\Models\\Blog.cs",
+              "ToolTip": "D:\\DigitalBlog\\DigitalBlog\\Models\\Blog.cs",
+              "RelativeToolTip": "DigitalBlog\\Models\\Blog.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:19:19.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Controllers\\HomeController.cs",
@@ -227,12 +253,11 @@
               "RelativeToolTip": "DigitalBlog\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAOYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T03:14:58.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T03:14:58.603Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "_ProfileImage.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\_ProfileImage.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\_ProfileImage.cshtml",
@@ -240,25 +265,11 @@
               "RelativeToolTip": "DigitalBlog\\Views\\Home\\_ProfileImage.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-27T14:50:48.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-27T14:50:48.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AddUser.cshtml",
-              "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\AddUser.cshtml",
-              "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\AddUser.cshtml",
-              "ToolTip": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\AddUser.cshtml",
-              "RelativeToolTip": "DigitalBlog\\Views\\Home\\AddUser.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-25T08:37:19.07Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "StaticController.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Controllers\\StaticController.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Controllers\\StaticController.cs",
@@ -270,7 +281,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Static\\Index.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Static\\Index.cshtml",
@@ -282,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_Profileinfo.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Home\\_Profileinfo.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Home\\_Profileinfo.cshtml",
@@ -294,7 +305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ChangePsw.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Models\\ChangePsw.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Models\\ChangePsw.cs",
@@ -302,12 +313,11 @@
               "RelativeToolTip": "DigitalBlog\\Models\\ChangePsw.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-29T05:09:47.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-29T05:09:47.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Shared\\_Layout.cshtml",
@@ -319,7 +329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "UserEdit.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Models\\UserEdit.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Models\\UserEdit.cs",
@@ -327,12 +337,11 @@
               "RelativeToolTip": "DigitalBlog\\Models\\UserEdit.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T06:21:21.622Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T06:21:21.622Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Login.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Account\\Login.cshtml",
@@ -344,7 +353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "BlogSubscription.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Models\\BlogSubscription.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Models\\BlogSubscription.cs",
@@ -356,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "dbo.Users [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./DigitalBlog/True/SqlTable/dbo.Users.sql",
               "ToolTip": "dbo.Users [Data]",
@@ -365,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Program.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Program.cs",
@@ -377,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "dbo.BlogSubscription [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/./DigitalBlog/True/SqlTable/dbo.BlogSubscription.sql",
               "ToolTip": "dbo.BlogSubscription [Data]",
@@ -386,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "DigitalBlogContext.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Models\\DigitalBlogContext.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\Models\\DigitalBlogContext.cs",
@@ -398,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -410,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "DataSecurityProvider.cs",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\DataSecurity\\DataSecurityProvider.cs",
               "RelativeDocumentMoniker": "DigitalBlog\\DataSecurity\\DataSecurityProvider.cs",
@@ -422,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "DigitalBlog.csproj",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\DigitalBlog.csproj",
               "RelativeDocumentMoniker": "DigitalBlog\\DigitalBlog.csproj",
@@ -434,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\appsettings.json",
               "RelativeDocumentMoniker": "DigitalBlog\\appsettings.json",
@@ -446,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\Shared\\Error.cshtml",
@@ -458,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\_ViewImports.cshtml",
@@ -470,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\DigitalBlog\\DigitalBlog\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "DigitalBlog\\Views\\_ViewStart.cshtml",

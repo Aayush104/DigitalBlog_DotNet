@@ -15,6 +15,11 @@ builder.Services.AddScoped<DataSecurityProvider>();
 
 //Id unauthorized user ley access garna khojyo vaney login ma fyaldinxa
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme).AddCookie(o => o.LoginPath="/Account/Login");
+  builder.Services.AddSession(o =>
+    {
+        o.IdleTimeout = TimeSpan.FromMinutes(2);
+        o.Cookie.HttpOnly = true;
+    });
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -27,7 +32,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
+app.UseSession();   
 app.UseRouting();
 
 app.UseAuthorization();

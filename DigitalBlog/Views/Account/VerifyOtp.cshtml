@@ -1,0 +1,31 @@
+﻿@model UserEdit
+
+@{
+    ViewData["Title"] = "Verify Token";
+}
+
+<div class="max-w-md mx-auto flex flex-col gap-16">
+    <h2 class="font-bold text-4xl text-center mb-16">Enter Your Token</h2>
+    <p class="text-center">Token Valid For 2 minutes only</p>
+
+    <form asp-action="VerifyOtp" class="mt-16">
+
+
+        <div asp-validation-summary="ModelOnly" class="text-red-800"></div>
+        <input  asp-for="EmailAddress" value="@ViewBag.Email" hidden/>
+
+        <div class="relative mb-3">
+            <input asp-for="Token"
+                   class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+                   placeholder=" "
+                   required />
+            <label asp-for="Token"
+                   class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:start-0 rtl:peer-focus:translate-x-1/4 rtl:peer-focus:left-auto peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"></label>
+            <span asp-validation-for="Token" class="text-red-800"></span>
+        </div>
+
+        <div class="my-2 mt-5">
+            <input type="submit" value="Submit" class="w-full text-white bg-blue-500 hover:bg-blue-700 py-3 px-5 rounded-lg" />
+        </div>
+    </form>
+</div>
