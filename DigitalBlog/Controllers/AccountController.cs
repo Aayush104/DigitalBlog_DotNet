@@ -33,6 +33,7 @@ namespace DigitalBlog.Controllers
             {
 				return RedirectToAction("Index","Home");
 
+
 			}
 
             return View();
@@ -87,7 +88,7 @@ namespace DigitalBlog.Controllers
 		{
 			if (User.IsInRole("Admin"))
 			{
-				return RedirectToAction("Index"); 
+				return RedirectToAction("AdminDash","Home"); 
 			}
 			else if (User.IsInRole("Editor"))
 			{
@@ -321,10 +322,12 @@ namespace DigitalBlog.Controllers
             return RedirectToAction("Login");
         }
 
-
+			
 
     }
 
+
+	
 
 
 }

@@ -5,6 +5,30 @@
       "PackagePath": "staticwebassets\\DigitalBlog.bundle.scp.css"
     },
     {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\BlogImage\\2a7ecb41-e009-4c8d-ae68-b2254a9d4a39.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\2a7ecb41-e009-4c8d-ae68-b2254a9d4a39.jpg"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\BlogImage\\4e9b6cfe-fa86-4dc8-aa0b-d5dce68cb347.png",
+      "PackagePath": "staticwebassets\\BlogImage\\4e9b6cfe-fa86-4dc8-aa0b-d5dce68cb347.png"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\BlogImage\\5d36ea8b-76c1-44a4-a064-8d3597bfa26b.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\5d36ea8b-76c1-44a4-a064-8d3597bfa26b.jpg"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\BlogImage\\88692544-8e34-40f8-9266-884bd89c914a.png",
+      "PackagePath": "staticwebassets\\BlogImage\\88692544-8e34-40f8-9266-884bd89c914a.png"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\BlogImage\\9d4ad9ce-7e88-41b5-a936-7d8c0f877a72.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\9d4ad9ce-7e88-41b5-a936-7d8c0f877a72.jpg"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\BlogImage\\f73692a8-996a-4fbf-aa1e-8f5b028bc94b.jpg",
+      "PackagePath": "staticwebassets\\BlogImage\\f73692a8-996a-4fbf-aa1e-8f5b028bc94b.jpg"
+    },
+    {
       "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\3307720c-21ea-465b-868a-e76716646ae5.jpeg",
       "PackagePath": "staticwebassets\\UserProfile\\3307720c-21ea-465b-868a-e76716646ae5.jpeg"
     },
@@ -47,6 +71,18 @@
     {
       "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\dd5b81f7-3c43-4bfa-a12d-5c316b8b2156.png",
       "PackagePath": "staticwebassets\\UserProfile\\dd5b81f7-3c43-4bfa-a12d-5c316b8b2156.png"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\e8a93361-256f-4eae-a3fb-7d09c6874180.jpg",
+      "PackagePath": "staticwebassets\\UserProfile\\e8a93361-256f-4eae-a3fb-7d09c6874180.jpg"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\eb164fd6-b1ba-4c87-bb3d-1b943d97bf9f.jpg",
+      "PackagePath": "staticwebassets\\UserProfile\\eb164fd6-b1ba-4c87-bb3d-1b943d97bf9f.jpg"
+    },
+    {
+      "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\efb725ad-aba6-4404-b6d5-f4d758b94e11.jpg",
+      "PackagePath": "staticwebassets\\UserProfile\\efb725ad-aba6-4404-b6d5-f4d758b94e11.jpg"
     },
     {
       "Id": "D:\\DigitalBlog\\DigitalBlog\\wwwroot\\UserProfile\\f6d1d37d-e7ca-4481-8607-a8ee6c6a6c21.png",

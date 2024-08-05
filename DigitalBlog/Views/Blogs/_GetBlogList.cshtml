@@ -1,0 +1,22 @@
+﻿@model List<BlogEdit>
+
+@if (!Model.Any())
+{
+    <div>
+        <p>No Blogs Here</p>
+    </div>
+}
+else
+{
+    @foreach (var i in Model)
+    {
+        <div class="flex flex-col shadow-2xl border border-gray-200 gap-4 text-center px-4 py-2 rounded-md">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">@i.Title</h5>
+            <p class="font-normal text-gray-700 dark:text-gray-400">@i.Bdescription</p>
+            <p class="font-normal text-gray-700 dark:text-gray-400">@i.Bstatus</p>
+            <p class="font-normal text-gray-700 dark:text-gray-400">@i.PublishedBy</p>
+
+            <a asp-action="BlogDetails" asp-controller="Blogs" asp-route-id="@i.EncId">Details</a>
+        </div>
+    }
+}

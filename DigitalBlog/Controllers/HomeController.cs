@@ -91,7 +91,7 @@ namespace DigitalBlog.Controllers
                 {
                     UserId = edit.UserId,
                     UserProfile = edit.UserProfile,
-                    UserRole = "User",
+                    UserRole = "Admin",
                     LoginName = edit.LoginName,
                     FullName = edit.FullName,
                     LoginPassword = _dataProtector.Protect(edit.LoginPassword),
@@ -217,14 +217,20 @@ namespace DigitalBlog.Controllers
         }
 
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpGet]   
+
+        public IActionResult AdminDash()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();  
         }
+
+   
+        }
+
+
 
 
       
 
     }
-}
+
