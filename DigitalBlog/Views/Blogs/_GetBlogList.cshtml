@@ -1,5 +1,8 @@
 ﻿@model List<BlogEdit>
 
+
+
+
 @if (!Model.Any())
 {
     <div>
@@ -11,12 +14,37 @@ else
     @foreach (var i in Model)
     {
         <div class="flex flex-col shadow-2xl border border-gray-200 gap-4 text-center px-4 py-2 rounded-md">
+            <img src="~/BlogImage/@i.BlogImage" class="w-40" />
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">@i.Title</h5>
             <p class="font-normal text-gray-700 dark:text-gray-400">@i.Bdescription</p>
             <p class="font-normal text-gray-700 dark:text-gray-400">@i.Bstatus</p>
             <p class="font-normal text-gray-700 dark:text-gray-400">@i.PublishedBy</p>
 
-            <a asp-action="BlogDetails" asp-controller="Blogs" asp-route-id="@i.EncId">Details</a>
+            @if (i.Bstatus == "UnPaid")
+            {
+                <a asp-action="BlogDetails" asp-controller="Blogs" asp-route-id="@i.EncId" class="text-blue-500 hover:underline">Details</a>
+                
+            }
+
+        
+
+            @if(i.Bstatus == "Paid")
+            {
+                var netAmt = i.Amount;
+                var epid = i.EncId;
+                <form action="https://uat.esewa.com.np/epay/main" method="POST">
+                <input value="@netAmt" name="tAmt" type="hidden">
+                    <input value="@netAmt" name="amt" type="hidden">
+                    <input value="0" name="txAmt" type="hidden">
+                    <input value="0" name="psc" type="hidden">
+                    <input value="0" name="pdc" type="hidden">
+                    <input value="EPAYTEST" name="scd" type="hidden">
+                    <input value="@epid" name="pid" type="hidden">
+                    <input value="https://localhost:7043/Blogs/Success?q=su" type="hidden" name="su">
+                    <input value="https://localhost:7043/Blogs/Failure?q=fu" type="hidden" name="fu">
+                    <input value="e-Sewa" class="bg-green-600 hover:bg-green-800 px-3 py-3  m-1" type="submit">
+                </form>
+            }
         </div>
     }
 }

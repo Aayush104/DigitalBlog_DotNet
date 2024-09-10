@@ -1,0 +1,11 @@
+﻿@model Search
+
+
+<form asp-action="SearchBlog" asp-controller="Blogs" class="flex gap-2">
+    <div asp-validation-summary="ModelOnly"></div>
+    <input asp-for="Searched" type="text" placeholder="Search here..." class="border border-1 rounded-lg" />
+
+    <input type="submit" value="Search" class="w-20 text-white bg-blue-500 hover:bg-blue-700 py-3 px-5  rounded-lg" />
+    <span asp-validation-for="Searched" class="text-red-800"></span>
+
+</form>

@@ -23,6 +23,8 @@ namespace DigitalBlog.Models
         public IFormFile? ImageForm { get; set; }   
 
         public string? EncId = string.Empty; 
-        public string? PublishedBy ;   
+        public string? PublishedBy { get; set; }
+        
+
     }
 }

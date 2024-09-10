@@ -1,7 +1,10 @@
 ﻿@model Blog
 
 
-<img src="~/BlogImage/@Model.BlogImage" width="100" />
+ @Html.Partial("../Home/_Search.cshtml", new Search())
+
+
+<img src="~/BlogImage/@Model.BlogImage" width="100" alt="Blog Image" />
 <p>@Model.Title</p>
 <p>@Model.Bstatus</p>
 <p>@Model.Bdescription</p>

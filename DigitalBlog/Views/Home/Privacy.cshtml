@@ -1,21 +1,41 @@
-﻿@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<a asp-action="GetBlogList" asp-controller="Blogs" id="btn_getblog" data-ajax="true" data-ajax-method="get" data-ajax-update="#getblog" data-ajax-loading="#load"></a>
+﻿@model BlogEdit
 
+@{
+    ViewData["Title"] = "Blog Filter";
+}
+
+@Html.Partial("_Search")
+
+<form asp-action="GetBlogList" asp-controller="Blogs" data-ajax="true" data-ajax-method="get" data-ajax-update="#getblog" data-ajax-loading="#load">
+    <div class="relative mb-3">
+        <label class="text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 left-3 -z-10 origin-[0] peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Choose Status</label>
+        <select asp-for="Bstatus" id="selectstatus" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer">
+            <option value="UnPaid" selected>Free</option>
+            <option value="Paid">Premium</option>
+        </select>
+
+
+        <div class="my-3" hidden>
+            <input type="submit" id="filter" value="Search" class="text-white bg-blue-600 hover\:bg-blue-800 py-3 px-5 rounded-lg" />
+        </div>
+    </div>
+</form>
 
 <div id="load" class="max-w-md mx-auto">
-
-	Loading............
-
+    Loading............
 </div>
 
 <div class="flex flex-wrap mt-8 gap-8 px-8" id="getblog">
+   
 </div>
 
-
 <script>
-	$(document).ready(function () {
-		$('#btn_getblog').click()
-	})
+    $(document).ready(function () {
+       
+        $('#filter').click()
+
+        $('#selectstatus').on('change', function () {
+            $('#filter').click();
+        });
+    });
 </script>

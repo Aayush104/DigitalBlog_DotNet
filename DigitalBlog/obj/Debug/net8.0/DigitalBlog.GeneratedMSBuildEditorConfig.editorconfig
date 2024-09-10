@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQmxvZ0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/DigitalBlog/DigitalBlog/Views/Blogs/Failure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcRmFpbHVyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DigitalBlog/DigitalBlog/Views/Blogs/SearchBlog.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcU2VhcmNoQmxvZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DigitalBlog/DigitalBlog/Views/Blogs/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/DigitalBlog/DigitalBlog/Views/Blogs/_GetBlogList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcX0dldEJsb2dMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -76,6 +88,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/DigitalBlog/DigitalBlog/Views/Home/_Profileinfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUHJvZmlsZWluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/DigitalBlog/DigitalBlog/Views/Home/_Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfU2VhcmNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/DigitalBlog/DigitalBlog/Views/Shared/Error.cshtml]
